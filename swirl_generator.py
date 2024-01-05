@@ -1,3 +1,10 @@
+"""Generate cool swirl art-work
+Keys:
+r - generate new design by re-randomizing parameters
+up/down - change the angle inputs (changes design)
+left/right - changes distance of lines, the effect is either rotation or design modification depending on whether loop 1 is activated.
+1 - activate loop 1. Adds complexity to the design"""
+
 import turtle as t
 import math
 import random
